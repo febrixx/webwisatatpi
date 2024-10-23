@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('https://via.placeholder.com/1200x500');
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #0063ee;
+}
+.header {
+    background-image: url('path/to/your/image.jpg'); /* Ganti dengan path gambar */
+    background-size: cover; /* Mengisi area header */
+    background-position: center; /* Memposisikan gambar di tengah */
+    height: 300px; /* Sesuaikan tinggi header */
+    color: rgb(193, 0, 0); /* Ubah warna teks sesuai kebutuhan */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
